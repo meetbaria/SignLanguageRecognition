@@ -12,7 +12,7 @@ if not cap.isOpened():
         "Could not open webcam. Check camera permissions "
         "or try changing VideoCapture(0) to VideoCapture(1)."
     )
-
+                  
 with mp_hands.Hands(
     static_image_mode=False,
     max_num_hands=2,
